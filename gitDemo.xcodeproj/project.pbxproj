@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8443A49A1C055E6F00D0C703 /* LoginM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443A4931C055E6F00D0C703 /* LoginM.m */; };
+		8443A49B1C055E6F00D0C703 /* LoginV.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443A4961C055E6F00D0C703 /* LoginV.m */; };
+		8443A49C1C055E6F00D0C703 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443A4981C055E6F00D0C703 /* LoginVC.m */; };
+		8443A49D1C055E6F00D0C703 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8443A4991C055E6F00D0C703 /* LoginVC.xib */; };
 		847BACE11C055A7E00E2FF48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847BACE01C055A7E00E2FF48 /* main.m */; };
 		847BACE41C055A7E00E2FF48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847BACE31C055A7E00E2FF48 /* AppDelegate.m */; };
 		847BACE71C055A7E00E2FF48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847BACE61C055A7E00E2FF48 /* ViewController.m */; };
@@ -27,6 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8443A4921C055E6F00D0C703 /* LoginM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginM.h; sourceTree = "<group>"; };
+		8443A4931C055E6F00D0C703 /* LoginM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginM.m; sourceTree = "<group>"; };
+		8443A4941C055E6F00D0C703 /* LoginV+protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LoginV+protocols.h"; sourceTree = "<group>"; };
+		8443A4951C055E6F00D0C703 /* LoginV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginV.h; sourceTree = "<group>"; };
+		8443A4961C055E6F00D0C703 /* LoginV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginV.m; sourceTree = "<group>"; };
+		8443A4971C055E6F00D0C703 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		8443A4981C055E6F00D0C703 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		8443A4991C055E6F00D0C703 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		847BACDB1C055A7E00E2FF48 /* gitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847BACDF1C055A7E00E2FF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847BACE01C055A7E00E2FF48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +101,14 @@
 				847BACEB1C055A7E00E2FF48 /* Images.xcassets */,
 				847BACED1C055A7E00E2FF48 /* LaunchScreen.xib */,
 				847BACDE1C055A7E00E2FF48 /* Supporting Files */,
+				8443A4921C055E6F00D0C703 /* LoginM.h */,
+				8443A4931C055E6F00D0C703 /* LoginM.m */,
+				8443A4941C055E6F00D0C703 /* LoginV+protocols.h */,
+				8443A4951C055E6F00D0C703 /* LoginV.h */,
+				8443A4961C055E6F00D0C703 /* LoginV.m */,
+				8443A4971C055E6F00D0C703 /* LoginVC.h */,
+				8443A4981C055E6F00D0C703 /* LoginVC.m */,
+				8443A4991C055E6F00D0C703 /* LoginVC.xib */,
 			);
 			path = gitDemo;
 			sourceTree = "<group>";
@@ -201,6 +221,7 @@
 			files = (
 				847BACEA1C055A7E00E2FF48 /* Main.storyboard in Resources */,
 				847BACEF1C055A7E00E2FF48 /* LaunchScreen.xib in Resources */,
+				8443A49D1C055E6F00D0C703 /* LoginVC.xib in Resources */,
 				847BACEC1C055A7E00E2FF48 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +241,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				847BACE71C055A7E00E2FF48 /* ViewController.m in Sources */,
+				8443A49A1C055E6F00D0C703 /* LoginM.m in Sources */,
+				8443A49C1C055E6F00D0C703 /* LoginVC.m in Sources */,
 				847BACE41C055A7E00E2FF48 /* AppDelegate.m in Sources */,
 				847BACE11C055A7E00E2FF48 /* main.m in Sources */,
+				8443A49B1C055E6F00D0C703 /* LoginV.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +440,7 @@
 				847BAD001C055A7E00E2FF48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847BAD011C055A7E00E2FF48 /* Build configuration list for PBXNativeTarget "gitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				847BAD031C055A7E00E2FF48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
