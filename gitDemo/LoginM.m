@@ -27,9 +27,6 @@
     else {
         failureB (nil);
     }
-
-    
-    
 }
 
 - (void)updateString:(LoginVstr)field newValue:(NSString *)string {
