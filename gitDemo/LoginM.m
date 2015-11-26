@@ -12,9 +12,30 @@
 
 @interface LoginM ()
 
+@property (strong, nonatomic) NSString * username;
+@property (strong, nonatomic) NSString * password;
+
 @end
 
 
 @implementation LoginM
+
+- (void)loginUserSuccess:(void (^)())successB failure:(void (^)(NSError *))failureB {
+    if ([_username  isEqual: @"abc"] && [_password  isEqual: @"123"]) {
+        successB();
+    }
+    else {
+        failureB (nil);
+    }
+
+    
+    
+}
+
+- (void)updateString:(LoginVstr)field newValue:(NSString *)string {
+
+    
+    
+}
 
 @end
