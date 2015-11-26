@@ -29,10 +29,7 @@
     }
 }
 
-- (void)updateString:(LoginVstr)field newValue:(NSString *)string {
-
-    
-    
+- (void)updateString:(LoginVstr)field newValue:(NSString *)string {    
 }
 
 @end
