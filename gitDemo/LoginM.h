@@ -13,4 +13,6 @@
 
 @interface LoginM : NSObject <LoginVdatasource>
 
+- (void)loginUserSuccess:(void(^)())successB failure:(void(^)(NSError *error))failureB;
+
 @end
