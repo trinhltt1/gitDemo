@@ -12,9 +12,13 @@
 
 @protocol ProfileVdelegate <NSObject>
 
+- (void)buttonPress;
+
 @end
 
 
 @protocol ProfileVdatasource <NSObject>
+
+- (NSString *)username;
 
 @end
