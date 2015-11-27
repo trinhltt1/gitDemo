@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8403EEC11C0854E80053BA90 /* ProfileM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403EEBA1C0854E80053BA90 /* ProfileM.m */; };
+		8403EEC21C0854E80053BA90 /* ProfileV.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403EEBD1C0854E80053BA90 /* ProfileV.m */; };
+		8403EEC31C0854E80053BA90 /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403EEBF1C0854E80053BA90 /* ProfileVC.m */; };
+		8403EEC41C0854E80053BA90 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8403EEC01C0854E80053BA90 /* ProfileVC.xib */; };
 		847BACE11C055A7E00E2FF48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847BACE01C055A7E00E2FF48 /* main.m */; };
 		847BACE41C055A7E00E2FF48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847BACE31C055A7E00E2FF48 /* AppDelegate.m */; };
 		847BACE71C055A7E00E2FF48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847BACE61C055A7E00E2FF48 /* ViewController.m */; };
@@ -27,6 +31,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8403EEB91C0854E80053BA90 /* ProfileM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileM.h; sourceTree = "<group>"; };
+		8403EEBA1C0854E80053BA90 /* ProfileM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileM.m; sourceTree = "<group>"; };
+		8403EEBB1C0854E80053BA90 /* ProfileV+protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ProfileV+protocols.h"; sourceTree = "<group>"; };
+		8403EEBC1C0854E80053BA90 /* ProfileV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileV.h; sourceTree = "<group>"; };
+		8403EEBD1C0854E80053BA90 /* ProfileV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileV.m; sourceTree = "<group>"; };
+		8403EEBE1C0854E80053BA90 /* ProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		8403EEBF1C0854E80053BA90 /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
+		8403EEC01C0854E80053BA90 /* ProfileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		847BACDB1C055A7E00E2FF48 /* gitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847BACDF1C055A7E00E2FF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847BACE01C055A7E00E2FF48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +75,14 @@
 		847BACD21C055A7E00E2FF48 = {
 			isa = PBXGroup;
 			children = (
+				8403EEB91C0854E80053BA90 /* ProfileM.h */,
+				8403EEBA1C0854E80053BA90 /* ProfileM.m */,
+				8403EEBB1C0854E80053BA90 /* ProfileV+protocols.h */,
+				8403EEBC1C0854E80053BA90 /* ProfileV.h */,
+				8403EEBD1C0854E80053BA90 /* ProfileV.m */,
+				8403EEBE1C0854E80053BA90 /* ProfileVC.h */,
+				8403EEBF1C0854E80053BA90 /* ProfileVC.m */,
+				8403EEC01C0854E80053BA90 /* ProfileVC.xib */,
 				847BACDD1C055A7E00E2FF48 /* gitDemo */,
 				847BACF71C055A7E00E2FF48 /* gitDemoTests */,
 				847BACDC1C055A7E00E2FF48 /* Products */,
@@ -199,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8403EEC41C0854E80053BA90 /* ProfileVC.xib in Resources */,
 				847BACEA1C055A7E00E2FF48 /* Main.storyboard in Resources */,
 				847BACEF1C055A7E00E2FF48 /* LaunchScreen.xib in Resources */,
 				847BACEC1C055A7E00E2FF48 /* Images.xcassets in Resources */,
@@ -219,9 +240,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8403EEC21C0854E80053BA90 /* ProfileV.m in Sources */,
 				847BACE71C055A7E00E2FF48 /* ViewController.m in Sources */,
 				847BACE41C055A7E00E2FF48 /* AppDelegate.m in Sources */,
 				847BACE11C055A7E00E2FF48 /* main.m in Sources */,
+				8403EEC31C0854E80053BA90 /* ProfileVC.m in Sources */,
+				8403EEC11C0854E80053BA90 /* ProfileM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +440,7 @@
 				847BAD001C055A7E00E2FF48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		847BAD011C055A7E00E2FF48 /* Build configuration list for PBXNativeTarget "gitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				847BAD031C055A7E00E2FF48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
