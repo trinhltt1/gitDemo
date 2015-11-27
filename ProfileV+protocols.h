@@ -19,6 +19,6 @@
 
 @protocol ProfileVdatasource <NSObject>
 
-- (NSString *)username;
+- (NSString *)username ;
 
 @end
